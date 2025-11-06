@@ -1,7 +1,7 @@
 main {
   display: flex;
   flex-direction: column;
-  gap: 183px;
+  gap: 170px;
 }
 
 .content-section {
@@ -77,7 +77,7 @@ main {
 
 .cover {
   position: relative;
-  padding: 165px 50px 50px 50px;
+  padding: 155px 50px 50px 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
