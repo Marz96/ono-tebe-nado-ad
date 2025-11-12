@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <title>Сайт</title>
 </head>
 <body>
-    <!-- Header -->
+    
     <header class="header">
-        <div class="header__logo">
-            <img src="images/logo.png" alt="Логотип">
+        <div class="header__logo-wrapper">
+            <a href="/">
+                <img src="images/logo.png" alt="Логотип компании">
+            </a>
         </div>
         
         <nav class="header__menu">
@@ -29,76 +34,66 @@
         </div>
     </header>
 
-    <!-- Cover -->
-    <div class="cover">
-        <div class="cover__overlay"></div>
-        
-        <div class="cover__description">
-            <ul>
-                <li class="cover__title">Заголовок 1</li>
-                <li class="cover__title">Заголовок 2</li>
-                <li class="cover__title">Заголовок 3</li>
-            </ul>
+    <main class="main">
+        <section class="cover">
+            <div class="cover__overlay"></div>
             
-            <div class="cover__description-text">
-                <p>Описание обложки</p>
-                <button class="cover__button">Кнопка</button>
+            <div class="cover__description">
+                <ul>
+                    <li class="cover__title">Заголовок 1</li>
+                    <li class="cover__title">Заголовок 2</li>
+                    <li class="cover__title">Заголовок 3</li>
+                </ul>
+                
+                <div class="cover__description-text">
+                    <p>Описание обложки</p>
+                    <button class="cover__button">Кнопка</button>
+                </div>
             </div>
-        </div>
-    </div>
+        </section>
 
-    <!-- Lots -->
-    <div class="lots">
-        <h2 class="lots__title">Заголовок секции</h2>
-        
-        <div class="lots__card lots__card_type-first">
-            <div class="lots__card-overlay">
-                <h1 class="lots__card-title">Заголовок лота</h1>
-                <p class="lots__card-description">Описание лота</p>
+        <section class="lots">
+            <h2 class="lots__title">Заголовок секции</h2>
+            
+            <div class="lots__card lots__card_type-first">
+                <div class="lots__card-overlay">
+                    <h1 class="lots__card-title">Заголовок лота</h1>
+                    <p class="lots__card-description">Описание лота</p>
+                </div>
             </div>
-        </div>
-        
-        <div class="lots__card lots__card_type-second">
-            <div class="lots__card-overlay">
-                <h1 class="lots__card-title">Заголовок лота</h1>
-                <p class="lots__card-description">Описание лота</p>
+            
+            <div class="lots__card lots__card_type-second">
+                <div class="lots__card-overlay">
+                    <h1 class="lots__card-title">Заголовок лота</h1>
+                    <p class="lots__card-description">Описание лота</p>
+                </div>
             </div>
-        </div>
-        
-        <div class="lots__card lots__card_type-third">
-            <div class="lots__card-overlay">
-                <h1 class="lots__card-title">Заголовок лота</h1>
-                <p class="lots__card-description">Описание лота</p>
+            
+            <div class="lots__card lots__card_type-third">
+                <div class="lots__card-overlay">
+                    <h1 class="lots__card-title">Заголовок лота</h1>
+                    <p class="lots__card-description">Описание лота</p>
+                </div>
             </div>
-        </div>
-        
-        <a href="#" class="lots__more">Показать больше</a>
-    </div>
+            
+            <a href="#" class="lots__more">Показать больше</a>
+        </section>
 
-    <!-- About -->
-    <div class="about">
-        <div class="about__logo-column">
-            <img src="images/logo.png" alt="Логотип">
-        </div>
-        
-        <div class="about__column">
-            <h2 class="about__title">О нас</h2>
-            <div class="about__description-block">
-                <p>Описание компании</p>
-                <p>Дополнительная информация</p>
+        <section class="about">
+            <div class="about__logo-column">
+                <img src="images/logo.png" alt="Логотип">
             </div>
-        </div>
-    </div>
+            
+            <div class="about__column">
+                <h2 class="about__title">О нас</h2>
+                <div class="about__description-block">
+                    <p>Описание компании</p>
+                    <p>Дополнительная информация</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="footer__contacts">
-            <div class="footer__contacts-line">Адрес</div>
-            <div class="footer__contacts-line">Телефон</div>
-            <div class="footer__contacts-line">Email</div>
-        </div>
-        
-        <nav class="footer__menu">
-            <ul>
-                <li><a href="#" class="footer__menu-link">Главная</a></li>
-                <li><a href="#" class="footer__menu-link">
+            <div class="footer__contacts-line">Адрес
